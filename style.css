@@ -34,16 +34,18 @@ body {
 
 .price {
     display: inline-flex;
-    gap: 70px;
+    gap: 30px;
     align-items: center;
+    color: green;
+}
+
+.price p {
+    text-decoration:line-through;
 }
 
 p {
     font-size:14px;
-}
-
-.button {
-
+    color: grey;
 }
 
 button {
